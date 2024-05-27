@@ -1,0 +1,12 @@
+python-dotenv
+openai
+langchain
+faiss-cpu
+tiktoken
+streamlit
+databutton
+pysqlite3-binary
+langchain-community
+poppler-utils
+reportlab
+langchain-openai
