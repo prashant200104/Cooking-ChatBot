@@ -35,9 +35,9 @@ for message in prompt:
             st.write(message["content"])
 
 # New input boxes for recipe, spice preference, and special ingredient
-recipe_input = st.text_area("Please input recipe here:")
-spice_input = st.text_input("Want to mention anything else regarding spicy, more chilies, or less chilies:")
-ingredient_input = st.text_input("Any special ingredient you want to add:")
+recipe_input = st.text_area("Please input recipe here:         ここにレシピを入力してください：")
+spice_input = st.text_input("Do you have any additional preferences:         追加の希望事項はありますか？")
+ingredient_input = st.text_input("Any special ingredient you want to add:       追加したい特別な材料はありますか？")
 
 # Merge the inputs
 merged_input = f"Recipe: {recipe_input}\n , Spice Preference: {spice_input}\n , Special Ingredient: {ingredient_input}"
