@@ -40,7 +40,7 @@ spice_input = st.text_input("Want to mention anything else regarding spicy, more
 ingredient_input = st.text_input("Any special ingredient you want to add:")
 
 # Merge the inputs
-merged_input = f"Recipe: {recipe_input}\nSpice Preference: {spice_input}\nSpecial Ingredient: {ingredient_input}"
+merged_input = f"Recipe: {recipe_input}\n , Spice Preference: {spice_input}\n , Special Ingredient: {ingredient_input}"
 
 # Display the merged input
 st.write("Merged Input:")
