@@ -67,7 +67,7 @@ if st.button("Submit"):
             st.stop()
 
     # Get merged input from user
-    merged_input = f"Recipe: {recipe_input}\nSpice Preference: {spice_input}\nSpecial Ingredient: {ingredient_input}"
+    merged_input = f"Recipe: {recipe_input}\n , Spice Preference: {spice_input}\n , Special Ingredient: {ingredient_input}"
 
     # Search the vectordb for similar content to the user's merged input
     search_results = vectordb.similarity_search(merged_input, k=5)
